@@ -1,0 +1,144 @@
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 17px;
+}
+
+#directory ul {
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#directory li {
+    float: left;
+}
+
+#directory a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#directory a:hover {
+    background-color: black;
+    color:red;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Bungee', sans-serif;
+    font-size: 100px;
+    z-index: -1;
+}
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.blogs {
+    width: 35%;
+    padding-bottom: 35px;
+}
+
+table {
+    width: 35%;
+    padding-top: 25px;
+}
+
+.add {
+    padding-bottom: 35px;
+}
+
+td {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+label {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 17px;
+}
+
+input[type=submit] {
+    background-color: red;;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 17px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    resize: none;
+    padding: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+p {
+    padding-left: 15px;
+}
+
+.error {
+    color: red;
+}
